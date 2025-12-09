@@ -62,7 +62,7 @@ int main()
         }
     }
 
-    //for (int i = 0; i < code.size(); i++)
+    //for (int i = 0; i < code.size(); i++) // uncomment, when you need to see translated to bf code
     //    std::cout << code[i];
     std::vector<unsigned char> vars(30000);
     code_size = code.size();
