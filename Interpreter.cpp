@@ -4,7 +4,7 @@
 int main()
 {
     std::vector<char> code(0);
-    std::ifstream file("Code.jr");
+    std::ifstream file("Code.bs");
     char cursor;
     if (file.is_open()) { // reading a file, deleting other characters
         while (file.get(cursor))
